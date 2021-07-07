@@ -1,0 +1,487 @@
+body {
+  font-family: "Microsoft YaHei", Arial, Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  margin: 0px;
+  background-color: #eff4fb;
+  color: #5d5d5d;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  height: 92px;
+  width: 94px;
+  float: right;
+}
+
+.personal {
+  height: 83px;
+  width: 200px;
+  float: left;
+  padding: 5px 0px;
+}
+
+.personal2 {
+  height: 83px;
+  width: 600px;
+  float: left;
+  padding: 5px 0px;
+}
+
+/*导航*/
+nav {
+  height: 39px;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url(../images/index_06.jpg) repeat-x;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+nav ul {
+  width: 800px;
+  height: 21px;
+  margin: 9px auto;
+  display: block;
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  width: 16.5%;
+  height: 21px;
+  display: block;
+  overflow: hidden;
+  line-height: 21px;
+  text-align: center;
+  color: black;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+nav ul li a {
+  color: inherit;
+  padding: 3px 25px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background: #008b8b;
+}
+
+/* 设置正文居中，凝胶布局 */
+.inner {
+  width: 1000px;
+  height: 1200px;
+  margin: 0 auto 0 auto;
+  background: white;
+}
+
+.topall {
+  clear: both;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.top {
+  width: 1000px;
+  height: 92px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/*页脚*/
+footer {
+  background: #2c2c2c;
+  padding: 20px 0px;
+}
+footer ul {
+  text-align: center;
+  width: 400px;
+  padding: 10px 0px 10px 50px;
+  margin: 0 auto;
+}
+footer ul li {
+  float: left;
+  border-right: 1px solid #3e3e3e;
+  padding: 0px 10px;
+}
+footer ul > li:nth-child(6) {
+  border-right: none;
+}
+footer p {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+footer ul .li2 {
+  float: left;
+  border-right: none;
+  padding: 0px 10px;
+}
+
+/*个人简历内容*/
+table {
+  margin: 0 auto;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 750px;
+  height: 950px;
+  text-align: center;
+  border-color: black;
+  font-family: "SimSun";
+  background-color: #eff4fb;
+  font-size: 16px;
+}
+
+tr {
+  height: 50px;
+}
+
+td {
+  border: black 2px solid;
+  width: 100px;
+  text-align: center;
+  color: black;
+}
+
+/*表头*/
+caption {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 24px;
+  color: #008b8b;
+  padding: 50px 0px 20px 0px;
+  font-family: "SimSun";
+  font-weight: 800;
+}
+/*龙猫图片*/
+.image1 {
+ position: absolute;
+ width: 100px;
+ height: 100px;
+ left: 275px;
+ top: 145px;
+}
+
+/*主页内容*/
+.idpic {
+  width: 110px;
+  height: 140px;
+}
+
+.pic1 {
+  margin: 0 auto 80px auto;
+  width: 700px;
+  height: 460px;
+}
+.pic1-1 {
+  width: 700px;
+  height: 460px;
+  margin-top: 30px;
+}
+
+#p1 {
+  line-height: 1.9em;
+  /* font-style: italic; */
+  font-size: 14px;
+  font-family: "SimSun",Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  width: 500px;
+  padding: 25px 25px 25px 25px;
+  margin: 30px 0px 30px 30px;
+  background: /*url(../images/background.gif) no-repeat*/ #AFEEEE /*top left*/;
+  float: left;
+  border-radius: 5px;
+}
+
+.pic2 {
+  width: 220px;
+  height: 180px;
+  padding: 10px 25px;
+  float: left;
+}
+
+.content {
+  width: 880px;
+  height: 230px;
+  border: 3px dashed #3e3e3e;
+  border-radius: 10px;
+  margin: 10px auto 50px auto;
+}
+
+#p2 {
+  line-height: 1.9em;
+  font-size: 14px;
+  font-family: "SimSun",Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  width: 500px;
+  padding: 25px 25px 25px 25px;
+  margin: 30px 30px 30px 30px;
+  background: #AFEEEE;
+  float: right;
+  border-radius: 5px;
+}
+
+.pic3 {
+  width: 230px;
+  height: 180px;
+  padding: 10px 15px;
+  float: left;
+}
+
+/*家乡页面内容*/
+.content2 {
+  width: 880px;
+  height: 380px;
+  border: 2px solid #AFEEEE;
+  border-radius: 10px;
+  margin: 0px auto;
+  position: relative;
+  top: 50px;
+  background-color: #eff4fb;
+}
+#p3 {
+  line-height: 1.9em;
+  /* font-style: italic; */
+  font-size: 14px;
+  font-family: "SimSun",Georgia, "Times New Roman", Times, serif;
+  color: #444444;
+  border: 1px dashed white;
+  width: 400px;
+  padding: 25px 0px 25px 25px;
+  margin: 30px 0px 30px 30px;
+  background: /*url(../images/background.gif) no-repeat*/ #AFEEEE /*top left*/;
+  float: left;
+  border-radius: 5px;
+}
+.pic4 {
+  width: 350px;
+  height: 350px;
+  padding: 5px 25px;
+  float: right;
+}
+.h1-2 {
+  font-family: "SimSun";
+  font-size: 20px;
+  color: black;
+  position: relative;
+  top: 80px;
+  left: 450px;
+  margin: 0;
+}
+.content2-1 {
+    width: 270px;
+    height: 320px;
+    margin: 100px 0 0 50px;
+    float: left;
+    background-color:#E1FFFF;
+}
+.content2-2 {
+  width: 270px;
+  height: 320px;
+  margin: 100px 50px 0 30px;
+  float: right;
+  background-color: #E1FFFF;
+}
+.content2-3 {
+  width: 270px;
+  height: 320px;
+  margin: 100px 15px 0 30px;
+  float: right;
+  background-color: #E1FFFF;
+}
+.content2-4 {
+  width: 270px;
+  height: 320px;
+  margin: 40px 0 0 50px;
+  float: left;
+  background-color: #E1FFFF;
+}
+.content2-5 {
+  width: 270px;
+  height: 320px;
+  margin: 40px 0 0 45px;
+  float: left;
+  background-color: #E1FFFF;
+}
+.content2-6 {
+  width: 270px;
+  height: 320px;
+  margin: 40px 0 0 45px;
+  float: left;
+  background-color: #E1FFFF;
+}
+.image2 {
+  width: 180px;
+  height: 120px;
+  position: relative;
+  top: 15px;
+  left: 45px;
+}
+.h1-3 {
+  margin: 15px  0 0 85px;
+  font-family: "SimSun";
+  font-size: 16px;
+}
+#p4 {
+  line-height: 1.6em;
+  /* font-style: italic; */
+  font-size: 12px;
+  font-family: "SimSun",Georgia, "Times New Roman", Times, serif;
+  color: black;
+  border: 1px dotted #444444;
+  width: 220px;
+  padding: 10px 0px 10px 0px;
+  margin: 15px 5px 5px 25px;
+  background: #AFEEEE;
+  border-radius: 5px;
+}
+
+/*兴趣爱好页面*/
+.pic5-1 {
+  margin: 50px 50px 40px 135px;
+  width: 340px;
+  height: 220px;
+}
+.pic5-2 {
+  margin: 50px 135px 40px auto;
+  width: 340px;
+  height: 220px;
+  float: right;
+}
+.pic5-3 {
+  margin: 0 25px 50px 135px;
+  width: 340px;
+  height: 220px;
+}
+.pic5-4 {
+  margin: 0 135px 50px auto;
+  width: 340px;
+  height: 220px;
+  float: right;
+}
+
+/*联系方式页面*/
+.content3 {
+  width: 300px;
+  height: 550px;
+  border: 3px dashed #3e3e3e;
+  border-radius: 10px;
+  position: relative;
+  left: 150px;
+  top: 50px;
+  float: left;
+}
+.pic6 {
+  width: 230px;
+  height: 400px;
+  margin: 20px auto;
+}
+.p5 {
+  line-height: 1.6em;
+  /* font-style: italic; */
+  font-size: 20px;
+  text-align: center;
+  font-family: "SimSun",Georgia, "Times New Roman", Times, serif;
+  color: black;
+  border: 1px dotted #444444;
+  width: 220px;
+  padding: 10px 0px 10px 0px;
+  margin: 40px auto 25px auto;
+  background: #AFEEEE;
+  border-radius: 5px;
+  font-size: 12;
+}
+.content4 {
+  width: 300px;
+  height: 550px;
+  border: 3px dashed #3e3e3e;
+  border-radius: 10px;
+  position: relative;
+  left: 250px;
+  top: 50px;
+  float: left;
+}
+.text_cont {
+  height: 109.21px;
+  line-height: 1.5em;
+  font-family: "Microsoft Yahei";
+  padding: 11px 10px 16px 10px;
+}
+.box1 {
+  border: 2px solid #444444;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  width: 800px;
+  height: 150px;
+  border-radius: 3px;
+  margin: 0 auto;
+  float: left;
+}
+.h1-5 {
+  margin: 0;
+}
+div#text_cont2 {
+  height: 113.41px;
+  line-height: 1.5em;
+  font-family: "Microsoft Yahei";
+  padding: 11px 24px 16px 37px;
+}
+.box2 {
+  border: 2px solid #444444;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  width: 800px;
+  height: 150px;
+  border-radius: 3px;
+  margin: 0 auto;
+  float: left;
+}
+
+div#but {
+  text-align: center;
+  float: right;
+  position: relative;
+  top : 350px;
+  right: 500px;
+}
+#button {
+  color: #0070a3;
+  font-size: 13.2px;
+  font-family: "Lucida Grande";
+  padding: 5.28px 13.2px;
+  border: 1px solid #444444;
+  font-weight: bold;
+  background: #d7ebf9 url(../images/index_06.jpg) 50% 50% repeat-x;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+#button:hover{
+  background-color: #444444;
+}
+#a1 {
+  text-decoration: none;
+}
+#a1:hover {
+  background-color: #444444;
+}
